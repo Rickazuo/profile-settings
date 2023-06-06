@@ -1,28 +1,41 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 
-    /* border-bottom: 1px solid var(--gray-400); */
-    border-top: 1px solid var(--gray-400);
+  border-top: 1px solid var(--gray-400);
 }
 
 .title {
-    padding-left: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 0.75rem;
-    text-transform: uppercase;
-    color: var(--gray-300);
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  color: var(--gray-300);
 
-    font-size: 1.125rem;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 24px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
 }
 
 .dropRight {
-    position: absolute;
-    margin-left: 372px;
-    margin-top: -30px;
+  position: fixed;
+  margin-left: 372px;
+  margin-top: -30px;
+  width: 15dvw;
+  height: auto;
+  background: var(--gray-500);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .dropRight {
+    position: relative;
+    margin: 0;
+    width: auto;
+    background: var(--gray-400);
+  }
 }
