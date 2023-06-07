@@ -21,13 +21,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
--   HTML
--   CSS
--   JavaScript
--   React
--   Git e Github
--   Figma
--   Next
+- HTML
+- CSS
+- JavaScript
+- React
+- Git e Github
+- Figma
+- Next
 
 ## 💻 Projeto
 
@@ -39,14 +39,14 @@ O projeto _Profile Settings_ foi realizado como parte do #22 desafio #BORACODAR 
 
 O desafio foi a criação de um perfil de configurações usuário, o layout proposto está disponível em <a href="#-layout-figma">Layout</a>.
 
-_<h2 align="center" ><a href="https://shopping-cart-kohl-one.vercel.app/" target="_blank">Visite o projeto online</a></h2>_
+_<h2 align="center" ><a href="https://profile-settings-eta.vercel.app/" target="_blank">Visite o projeto online</a></h2>_
 
 ## 🔖 Layout
 
 Você pode visualizar o layout proposto pela RocketSeat através do da <a href="#-layout-figma">imagem abaixo</a>. Disponibilizado pelo [Figma](https://figma.com) durante o período do desafio.
 
 <p align="center" id="-layout-figma">
-  <img alt="profile settings figma" src="./public/figma.png">
+  <img alt="profile settings figma" src="./public/figma.PNG">
 </p>
 
 ## 📃 Collaborators
